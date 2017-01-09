@@ -33,7 +33,7 @@ class SystemTray(QMainWindow):
         self.showOnCenter()
 
         self.clipboard = QApplication.clipboard()
-        self.translateUrl = "http://fanyi.youdao.com/openapi.do?keyfrom=neverland&key=969918857&type=data&doctype=json&version=1.1&q="
+        self.translateUrl = "http://fanyi.youdao.com/openapi.do?keyfrom=Newdawn&key=784637548&type=data&doctype=json&version=1.1&q="
 
     def initUI(self):
         self.initBoard()
@@ -306,5 +306,5 @@ class SystemTray(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     tray = SystemTray()
-    tray.show()
+    # tray.show()
     sys.exit(app.exec_())
